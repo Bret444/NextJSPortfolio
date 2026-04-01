@@ -170,7 +170,7 @@ export default function Page() {
             I'm a dedicated web developer with expertise in building scalable web applications. I love writing
             clean, efficient code and learning new technologies. Always excited to collaborate on projects and
             contribute to the open-source community.
-            My journey in IT was driven by curiousity and willingness to learn new technologies.
+            My journey in IT was driven by curiousity and willingness to learn new technologies. And I'm fascinate to learn Cybersecurity and AI 
           </p>
         </section>
 
