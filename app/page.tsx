@@ -344,8 +344,8 @@ export default function Page() {
             <div className="glass-card p-8">
               <div className="text-center">
                 <h3 className="text-xl font-bold text-blue-400 mb-4">
-                  <a href="https://github.com/PathtoEnlightenment876" target="_blank"
-                    className="hover:text-blue-300 transition">PathtoEnlightenment876 (BRET)</a>
+                  <a href="https://github.com/Bret444" target="_blank"
+                    className="hover:text-blue-300 transition">Bret444</a>
                 </h3>
                 <p className="text-gray-300 mb-6">Check out my GitHub profile for more projects and contributions
                 </p>
