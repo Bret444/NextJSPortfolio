@@ -294,7 +294,6 @@ export default function Page() {
                   Introduction to Cybersecurity
                 </p>
               </div>
-            </div>
 
             <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
               January 27, 2024
@@ -413,7 +412,6 @@ export default function Page() {
                   Cybersecurity awareness and cyber hygiene training.
                 </p>
               </div>
-            </div>
 
             <span className="text-sm text-purple-300 bg-purple-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
               September 13, 2025
@@ -482,7 +480,7 @@ export default function Page() {
           z-index: 9999;
         }
       `}</style>
-
+       </div>
     </section>
 
         <section id="stack" className="mb-20 scroll-mt-24">
