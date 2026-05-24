@@ -271,7 +271,7 @@ export default function Page() {
           {/* Certificate Image */}
           <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
             <img
-              src="img/IntroToCyberSec-Tech Academy.png"
+              src="img/IntroToCybersec- Tech Academy.png"
               alt="Introduction To Cybersecurity"
               className="w-full h-full object-cover"
             />
