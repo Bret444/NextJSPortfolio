@@ -255,7 +255,176 @@ export default function Page() {
             </div>
           </div>
         </section>
+             <section id="certifications" className="mb-24 scroll-mt-24">
+  <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">
+    Certifications
+  </h2>
 
+  <div className="space-y-5">
+
+    {/* Certificate 1 */}
+    <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300">
+      <div className="flex items-start gap-4 justify-between mb-3">
+
+        <div className="flex items-center gap-4 flex-1">
+
+          {/* Certificate Image */}
+          <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
+            <img
+              src="img/IntroToCyberSec-Tech Academy.png"
+              alt="Introduction To Cybersecurity"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Info */}
+          <div>
+            <h3 className="text-lg font-bold text-white">
+              How to get started in Cybersecurity
+              (For beginners and 0-knowledge)
+            </h3>
+
+            <p className="text-gray-300 font-medium text-sm">
+              Tech Academy
+            </p>
+
+            <p className="text-gray-400 text-sm mt-1">
+              Introduction to Cybersecurity
+            </p>
+          </div>
+        </div>
+
+        {/* Year */}
+        <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full font-medium whitespace-nowrap">
+          January 27, 2024
+        </span>
+
+      </div>
+    </div>
+
+    {/* Certificate 2 */}
+    <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300">
+      <div className="flex items-start gap-4 justify-between mb-3">
+
+        <div className="flex items-center gap-4 flex-1">
+
+          {/* Certificate Image */}
+          <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
+            <img
+              src="img/Wireshark-Tech Academy.png"
+              alt="Wireshark Certificate"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Info */}
+          <div>
+            <h3 className="text-lg font-bold text-white">
+              Wireshark 101: For Beginners and 0-Knowledge
+            </h3>
+
+            <p className="text-gray-300 font-medium text-sm">
+              Tech Academy
+            </p>
+
+            <p className="text-gray-400 text-sm mt-1">
+              Webinar participation certificate focused on Wireshark basics
+              and network packet analysis.
+            </p>
+          </div>
+        </div>
+
+        {/* Year */}
+        <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full font-medium whitespace-nowrap">
+          February 10, 2024
+        </span>
+
+      </div>
+    </div>
+
+    {/* Certificate 3 */}
+    <div className="glass-card p-7 border-l-4 border-red-500 hover:border-red-400 transition duration-300">
+      <div className="flex items-start gap-4 justify-between mb-3">
+
+        <div className="flex items-center gap-4 flex-1">
+
+          {/* Certificate Image */}
+          <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
+            <img
+              src="img/RedTeamSideofCyberSec-Tech Academy.png"
+              alt="Red Team Certificate"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Info */}
+          <div>
+            <h3 className="text-lg font-bold text-white">
+              The Red Team Side of Cybersecurity: Jumpstarting Your
+              Cybersecurity Career with Five Things I Wish I Knew Six Years Ago
+            </h3>
+
+            <p className="text-gray-300 font-medium text-sm">
+              Tech Academy
+            </p>
+
+            <p className="text-gray-400 text-sm mt-1">
+              Cybersecurity webinar discussing red teaming and cybersecurity
+              career development.
+            </p>
+          </div>
+        </div>
+
+        {/* Year */}
+        <span className="text-sm text-red-300 bg-red-900/20 px-4 py-1.5 rounded-full font-medium whitespace-nowrap">
+          March 25, 2024
+        </span>
+
+      </div>
+    </div>
+
+    {/* Certificate 4 */}
+    <div className="glass-card p-7 border-l-4 border-purple-500 hover:border-purple-400 transition duration-300">
+      <div className="flex items-start gap-4 justify-between mb-3">
+
+        <div className="flex items-center gap-4 flex-1">
+
+          {/* Certificate Image */}
+          <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800 flex items-center justify-center">
+            <img
+              src="img/APAC CYBERSECURITY FUND.png"
+              alt="APAC Cybersecurity Fund Certificate"
+              className="w-full h-full object-cover"
+            />
+          </div>
+
+          {/* Info */}
+          <div>
+            <h3 className="text-lg font-bold text-white">
+              Cyber Hygiene Training
+            </h3>
+
+            <p className="text-gray-300 font-medium text-sm">
+              APAC Cybersecurity Fund
+            </p>
+
+            <p className="text-gray-400 text-sm mt-1">
+              Certificate of completion for cybersecurity awareness and cyber
+              hygiene training.
+            </p>
+          </div>
+        </div>
+
+        {/* Year */}
+        <span className="text-sm text-purple-300 bg-purple-900/20 px-4 py-1.5 rounded-full font-medium whitespace-nowrap">
+          September 13, 2025
+        </span>
+
+      </div>
+    </div>
+
+  </div>
+</section>
         
 
         <section id="stack" className="mb-20 scroll-mt-24">
