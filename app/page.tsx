@@ -277,7 +277,7 @@ export default function Page() {
                   <img
                     src="img/IntroToCybersec- Tech Academy.png"
                     alt="Certificate 1"
-                    className="w-full h-full object-cover hover:scale-105 transition"
+                   className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
                   />
                 </div>
               </label>
@@ -301,14 +301,16 @@ export default function Page() {
           </div>
 
           {/* Modal */}
-          <div className="
-            fixed inset-0 bg-black/80
-            flex items-center justify-center
+         <div className="
+           fixed inset-0 bg-black/80
+           flex items-center justify-center
             opacity-0 pointer-events-none
             peer-checked:opacity-100
             peer-checked:pointer-events-auto
             transition
-            z-50
+            z-[9999]
+            p-6
+           overflow-y-auto
           ">
 
             <label htmlFor="cert1" className="absolute inset-0"></label>
@@ -316,7 +318,7 @@ export default function Page() {
             <img
               src="img/IntroToCybersec- Tech Academy.png"
               alt="Certificate 1 Large"
-              className="max-w-4xl max-h-[80vh] rounded-lg shadow-lg z-10"
+              className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
             />
           </div>
 
@@ -336,7 +338,7 @@ export default function Page() {
                   <img
                     src="img/Wireshark-Tech Academy.png"
                     alt="Certificate 2"
-                    className="w-full h-full object-cover hover:scale-105 transition"
+                    className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
                   />
                 </div>
               </label>
@@ -359,21 +361,23 @@ export default function Page() {
             </span>
           </div>
 
-          <div className="
+         <div className="
             fixed inset-0 bg-black/80
             flex items-center justify-center
             opacity-0 pointer-events-none
             peer-checked:opacity-100
             peer-checked:pointer-events-auto
             transition
-            z-50
+            z-[9999]
+            p-6
+            overflow-y-auto
           ">
             <label htmlFor="cert2" className="absolute inset-0"></label>
 
             <img
               src="img/Wireshark-Tech Academy.png"
               alt="Certificate 2 Large"
-              className="max-w-4xl max-h-[80vh] rounded-lg shadow-lg z-10"
+              className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
             />
           </div>
 
@@ -393,7 +397,7 @@ export default function Page() {
                   <img
                     src="img/RedTeamSideofCyberSec-Tech Academy.png"
                     alt="Certificate 3"
-                    className="w-full h-full object-cover hover:scale-105 transition"
+                    className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
                   />
                 </div>
               </label>
@@ -416,15 +420,17 @@ export default function Page() {
             </span>
           </div>
 
-          <div className="
-            fixed inset-0 bg-black/80
-            flex items-center justify-center
-            opacity-0 pointer-events-none
-            peer-checked:opacity-100
-            peer-checked:pointer-events-auto
-            transition
-            z-50
-          ">
+           <div className="
+                fixed inset-0 bg-black/80
+                flex items-center justify-center
+                opacity-0 pointer-events-none
+                peer-checked:opacity-100
+                peer-checked:pointer-events-auto
+                transition
+                z-[9999]
+                p-6
+                overflow-y-auto
+              ">
             <label htmlFor="cert3" className="absolute inset-0"></label>
 
             <img
@@ -450,7 +456,7 @@ export default function Page() {
                   <img
                     src="img/APAC CYBERSECURITY FUND.png"
                     alt="Certificate 4"
-                    className="w-full h-full object-cover hover:scale-105 transition"
+                    className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
                   />
                 </div>
               </label>
@@ -475,21 +481,23 @@ export default function Page() {
             </span>
           </div>
 
-          <div className="
-            fixed inset-0 bg-black/80
-            flex items-center justify-center
-            opacity-0 pointer-events-none
-            peer-checked:opacity-100
-            peer-checked:pointer-events-auto
-            transition
-            z-50
-          ">
+         <div className="
+              fixed inset-0 bg-black/80
+              flex items-center justify-center
+              opacity-0 pointer-events-none
+              peer-checked:opacity-100
+              peer-checked:pointer-events-auto
+              transition
+              z-[9999]
+              p-6
+              overflow-y-auto
+            ">
             <label htmlFor="cert4" className="absolute inset-0"></label>
 
             <img
               src="img/APAC CYBERSECURITY FUND.png"
               alt="Certificate 4 Large"
-              className="max-w-4xl max-h-[80vh] rounded-lg shadow-lg z-10"
+             className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
             />
           </div>
 
