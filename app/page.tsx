@@ -257,10 +257,9 @@ export default function Page() {
         </section>
 
         <section id="certifications" className="mb-24 scroll-mt-24">
-  <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">
-    Certifications
-  </h2>
-
+         <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">
+         Certifications
+        </h2>
   <div className="space-y-5">
 
     {/* Certificate 1 */}
@@ -277,15 +276,13 @@ export default function Page() {
               className="w-full h-full object-cover"
             />
           </div>
-
-    {/* Info */}
+         {/* Info */}
           <div>
             <h3 className="text-lg font-bold text-white">
              How to get started in Cybersecurity
               (For beginners and 0-knowledge)
             </p>
             </h3>
-
             <p className="text-gray-300 font-medium text-sm">
               Tech Academy
             </p>
