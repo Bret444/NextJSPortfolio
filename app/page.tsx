@@ -256,7 +256,7 @@ export default function Page() {
         </section>
 
         <section id="stack" className="mb-20 scroll-mt-24">
-          <h2 className="section-title text-2xl font-semibold text-gray-300 mb-12 inline-block">💻 Tech Stack</h2>
+          <h2 className="section-title text-2xl font-semibold text-gray-300 mb-12 inline-block">Tech Stack</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="glass-card p-6">
               <h3 className="text-gray-400 mb-6 uppercase text-xs font-semibold tracking-wide">Frontend</h3>
