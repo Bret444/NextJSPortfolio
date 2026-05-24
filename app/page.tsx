@@ -262,22 +262,24 @@ export default function Page() {
 
       <div className="space-y-5">
 
-        {/* ================= CERT 1 ================= */}
-        <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300">
-
-          <div className="flex items-start gap-4 justify-between mb-3">
-
-            <div className="flex items-center gap-4 flex-1">
-
-              <a href="#cert1">
-                <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
-                  <img
-                    src="img/IntroToCybersec- Tech Academy.png"
-                    alt="Certificate 1"
-                    className="w-full h-full object-cover hover:scale-105 transition"
-                  />
-                </div>
-              </a>
+        {/* CERT 1 */}
+              <div
+                id="cert1"
+                className="
+                  fixed inset-0 bg-black/90
+                  flex items-center justify-center
+                  opacity-0 pointer-events-none
+                  transition
+                  z-[9999]
+                "
+              >
+                <a href="#certifications" className="absolute inset-0"></a>
+              
+                <img
+                  src="img/IntroToCybersec- Tech Academy.png"
+                  className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg z-10"
+                />
+              </div>
 
               <div>
                 <h3 className="text-lg font-bold text-white">
@@ -300,22 +302,24 @@ export default function Page() {
           </div>
         </div>
 
-        {/* ================= CERT 2 ================= */}
-        <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300">
-
-          <div className="flex items-start gap-4 justify-between mb-3">
-
-            <div className="flex items-center gap-4 flex-1">
-
-              <a href="#cert2">
-                <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
-                  <img
-                    src="img/Wireshark-Tech Academy.png"
-                    alt="Certificate 2"
-                    className="w-full h-full object-cover hover:scale-105 transition"
-                  />
-                </div>
-              </a>
+        {/* CERT 2 */}
+              <div
+                id="cert2"
+                className="
+                  fixed inset-0 bg-black/90
+                  flex items-center justify-center
+                  opacity-0 pointer-events-none
+                  transition
+                  z-[9999]
+                "
+              >
+                <a href="#certifications" className="absolute inset-0"></a>
+              
+                <img
+                  src="img/Wireshark-Tech Academy.png"
+                  className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg z-10"
+                />
+              </div>
 
               <div>
                 <h3 className="text-lg font-bold text-white">
@@ -338,22 +342,24 @@ export default function Page() {
           </div>
         </div>
 
-        {/* ================= CERT 3 ================= */}
-        <div className="glass-card p-7 border-l-4 border-red-500 hover:border-red-400 transition duration-300">
-
-          <div className="flex items-start gap-4 justify-between mb-3">
-
-            <div className="flex items-center gap-4 flex-1">
-
-              <a href="#cert3">
-                <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
-                  <img
-                    src="img/RedTeamSideofCyberSec-Tech Academy.png"
-                    alt="Certificate 3"
-                    className="w-full h-full object-cover hover:scale-105 transition"
-                  />
-                </div>
-              </a>
+       {/* CERT 3 */}
+            <div
+              id="cert3"
+              className="
+                fixed inset-0 bg-black/90
+                flex items-center justify-center
+                opacity-0 pointer-events-none
+                transition
+                z-[9999]
+              "
+            >
+              <a href="#certifications" className="absolute inset-0"></a>
+            
+              <img
+                src="img/RedTeamSideofCyberSec-Tech Academy.png"
+                className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg z-10"
+              />
+            </div>
 
               <div>
                 <h3 className="text-lg font-bold text-white">
@@ -376,22 +382,24 @@ export default function Page() {
           </div>
         </div>
 
-        {/* ================= CERT 4 ================= */}
-        <div className="glass-card p-7 border-l-4 border-purple-500 hover:border-purple-400 transition duration-300">
-
-          <div className="flex items-start gap-4 justify-between mb-3">
-
-            <div className="flex items-center gap-4 flex-1">
-
-              <a href="#cert4">
-                <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
-                  <img
-                    src="img/APAC CYBERSECURITY FUND.png"
-                    alt="Certificate 4"
-                    className="w-full h-full object-cover hover:scale-105 transition"
-                  />
-                </div>
-              </a>
+       {/* CERT 4 */}
+              <div
+                id="cert4"
+                className="
+                  fixed inset-0 bg-black/90
+                  flex items-center justify-center
+                  opacity-0 pointer-events-none
+                  transition
+                  z-[9999]
+                "
+              >
+                <a href="#certifications" className="absolute inset-0"></a>
+              
+                <img
+                  src="img/APAC CYBERSECURITY FUND.png"
+                  className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg z-10"
+                />
+              </div>
 
               <div>
                 <h3 className="text-lg font-bold text-white">
