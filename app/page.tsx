@@ -300,7 +300,7 @@ export default function Page() {
               January 27, 2024
             </span>
           </div>
-        </div>
+      
 
         {/* CERT 2 */}
               <div
@@ -334,13 +334,12 @@ export default function Page() {
                   Webinar participation certificate focused on Wireshark basics and network packet analysis.
                 </p>
               </div>
-            </div>
 
             <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
               February 10, 2024
             </span>
           </div>
-        </div>
+      
 
        {/* CERT 3 */}
             <div
@@ -374,13 +373,13 @@ export default function Page() {
                   Cybersecurity webinar discussing red teaming and career development.
                 </p>
               </div>
-            </div>
+          
 
             <span className="text-sm text-red-300 bg-red-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
               March 25, 2024
             </span>
           </div>
-        </div>
+       
 
        {/* CERT 4 */}
               <div
@@ -420,7 +419,6 @@ export default function Page() {
               September 13, 2025
             </span>
           </div>
-        </div>
 
       </div>
 
