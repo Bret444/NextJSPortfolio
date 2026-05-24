@@ -254,201 +254,140 @@ export default function Page() {
               </div>
             </div>
           </div>
-                     <section id="certifications" className="mb-24 scroll-mt-24">
+            <section id="certifications" className="mb-24 scroll-mt-24">
         
-          <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">
-            Certifications
-          </h2>
-        
-          <div className="space-y-5">
-        
-            {/* CERT 1 */}
-            <div className="glass-card p-7 border-l-4 border-cyan-500">
-              <div className="flex items-start gap-4 justify-between mb-3">
-        
-                <div className="flex items-center gap-4 flex-1">
-        
-                  <a href="#cert1">
-                    <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
-                      <img
-                        src="img/IntroToCybersec- Tech Academy.png"
-                        className="w-full h-full object-cover"
-                      />
+              <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">
+                Certifications
+              </h2>
+            
+              <div className="space-y-5">
+            
+                {/* CERT 1 */}
+                <div className="glass-card p-7 border-l-4 border-cyan-500">
+                  <div className="flex items-start gap-4 justify-between">
+            
+                    <div className="flex items-center gap-4 flex-1">
+            
+                      <a href="#cert1">
+                        <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
+                          <img src="img/IntroToCybersec- Tech Academy.png" className="w-full h-full object-cover" />
+                        </div>
+                      </a>
+            
+                      <div>
+                        <h3 className="text-lg font-bold text-white">
+                          How to get started in Cybersecurity
+                        </h3>
+                        <p className="text-gray-300 text-sm">Tech Academy</p>
+                        <p className="text-gray-400 text-sm">
+                          Introduction to Cybersecurity
+                        </p>
+                      </div>
+            
                     </div>
-                  </a>
-        
-                  <div>
-                    <h3 className="text-lg font-bold text-white">
-                      How to get started in Cybersecurity
-                    </h3>
-        
-                    <p className="text-gray-300 text-sm font-medium">
-                      Tech Academy
-                    </p>
-        
-                    <p className="text-gray-400 text-sm mt-1">
-                      Introduction to Cybersecurity
-                    </p>
+            
+                    <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full">
+                      January 27, 2024
+                    </span>
+            
                   </div>
-        
                 </div>
-        
-                <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
-                  January 27, 2024
-                </span>
-        
-              </div>
-            </div>
-        
-            {/* CERT 2 */}
-            <div className="glass-card p-7 border-l-4 border-cyan-500">
-              <div className="flex items-start gap-4 justify-between mb-3">
-        
-                <div className="flex items-center gap-4 flex-1">
-        
-                  <a href="#cert2">
-                    <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
-                      <img
-                        src="img/Wireshark-Tech Academy.png"
-                        className="w-full h-full object-cover"
-                      />
+            
+                {/* CERT 2 */}
+                <div className="glass-card p-7 border-l-4 border-cyan-500">
+                  <div className="flex items-start gap-4 justify-between">
+            
+                    <div className="flex items-center gap-4 flex-1">
+            
+                      <a href="#cert2">
+                        <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
+                          <img src="img/Wireshark-Tech Academy.png" className="w-full h-full object-cover" />
+                        </div>
+                      </a>
+            
+                      <div>
+                        <h3 className="text-lg font-bold text-white">
+                          Wireshark 101: Beginner Course
+                        </h3>
+                        <p className="text-gray-300 text-sm">Tech Academy</p>
+                        <p className="text-gray-400 text-sm">
+                          Network packet analysis basics
+                        </p>
+                      </div>
+            
                     </div>
-                  </a>
-        
-                  <div>
-                    <h3 className="text-lg font-bold text-white">
-                      Wireshark 101: For Beginners
-                    </h3>
-        
-                    <p className="text-gray-300 text-sm font-medium">
-                      Tech Academy
-                    </p>
-        
-                    <p className="text-gray-400 text-sm mt-1">
-                      Network packet analysis webinar
-                    </p>
+            
+                    <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full">
+                      February 10, 2024
+                    </span>
+            
                   </div>
-        
                 </div>
-        
-                <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
-                  February 10, 2024
-                </span>
-        
-              </div>
-            </div>
-        
-            {/* CERT 3 */}
-            <div className="glass-card p-7 border-l-4 border-red-500">
-              <div className="flex items-start gap-4 justify-between mb-3">
-        
-                <div className="flex items-center gap-4 flex-1">
-        
-                  <a href="#cert3">
-                    <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
-                      <img
-                        src="img/RedTeamSideofCyberSec-Tech Academy.png"
-                        className="w-full h-full object-cover"
-                      />
+            
+                {/* CERT 3 */}
+                <div className="glass-card p-7 border-l-4 border-red-500">
+                  <div className="flex items-start gap-4 justify-between">
+            
+                    <div className="flex items-center gap-4 flex-1">
+            
+                      <a href="#cert3">
+                        <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
+                          <img src="img/RedTeamSideofCyberSec-Tech Academy.png" className="w-full h-full object-cover" />
+                        </div>
+                      </a>
+            
+                      <div>
+                        <h3 className="text-lg font-bold text-white">
+                          Red Team Cybersecurity Basics
+                        </h3>
+                        <p className="text-gray-300 text-sm">Tech Academy</p>
+                        <p className="text-gray-400 text-sm">
+                          Cybersecurity career fundamentals
+                        </p>
+                      </div>
+            
                     </div>
-                  </a>
-        
-                  <div>
-                    <h3 className="text-lg font-bold text-white">
-                      Red Team Cybersecurity Basics
-                    </h3>
-        
-                    <p className="text-gray-300 text-sm font-medium">
-                      Tech Academy
-                    </p>
-        
-                    <p className="text-gray-400 text-sm mt-1">
-                      Cybersecurity career webinar
-                    </p>
+            
+                    <span className="text-sm text-red-300 bg-red-900/20 px-4 py-1.5 rounded-full">
+                      March 25, 2024
+                    </span>
+            
                   </div>
-        
                 </div>
-        
-                <span className="text-sm text-red-300 bg-red-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
-                  March 25, 2024
-                </span>
-        
-              </div>
-            </div>
-        
-            {/* CERT 4 */}
-            <div className="glass-card p-7 border-l-4 border-purple-500">
-              <div className="flex items-start gap-4 justify-between mb-3">
-        
-                <div className="flex items-center gap-4 flex-1">
-        
-                  <a href="#cert4">
-                    <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
-                      <img
-                        src="img/APAC CYBERSECURITY FUND.png"
-                        className="w-full h-full object-cover"
-                      />
+            
+                {/* CERT 4 */}
+                <div className="glass-card p-7 border-l-4 border-purple-500">
+                  <div className="flex items-start gap-4 justify-between">
+            
+                    <div className="flex items-center gap-4 flex-1">
+            
+                      <a href="#cert4">
+                        <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
+                          <img src="img/APAC CYBERSECURITY FUND.png" className="w-full h-full object-cover" />
+                        </div>
+                      </a>
+            
+                      <div>
+                        <h3 className="text-lg font-bold text-white">
+                          Cyber Hygiene Training
+                        </h3>
+                        <p className="text-gray-300 text-sm">APAC Cybersecurity Fund</p>
+                        <p className="text-gray-400 text-sm">
+                          Cybersecurity awareness training
+                        </p>
+                      </div>
+            
                     </div>
-                  </a>
-        
-                  <div>
-                    <h3 className="text-lg font-bold text-white">
-                      Cyber Hygiene Training
-                    </h3>
-        
-                    <p className="text-gray-300 text-sm font-medium">
-                      APAC Cybersecurity Fund
-                    </p>
-        
-                    <p className="text-gray-400 text-sm mt-1">
-                      Cybersecurity awareness training
-                    </p>
+            
+                    <span className="text-sm text-purple-300 bg-purple-900/20 px-4 py-1.5 rounded-full">
+                      September 13, 2025
+                    </span>
+            
                   </div>
-        
                 </div>
-        
-                <span className="text-sm text-purple-300 bg-purple-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
-                  September 13, 2025
-                </span>
-        
+            
               </div>
-            </div>
-        
-          </div>
-        
-          {/* ================= FULL PAGE VIEWERS ================= */}
-        
-          <div id="cert1" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
-            <a href="#certifications" className="absolute inset-0"></a>
-            <img src="img/IntroToCybersec- Tech Academy.png" className="max-w-5xl max-h-[90vh] object-contain" />
-          </div>
-        
-          <div id="cert2" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
-            <a href="#certifications" className="absolute inset-0"></a>
-            <img src="img/Wireshark-Tech Academy.png" className="max-w-5xl max-h-[90vh] object-contain" />
-          </div>
-        
-          <div id="cert3" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
-            <a href="#certifications" className="absolute inset-0"></a>
-            <img src="img/RedTeamSideofCyberSec-Tech Academy.png" className="max-w-5xl max-h-[90vh] object-contain" />
-          </div>
-        
-          <div id="cert4" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
-            <a href="#certifications" className="absolute inset-0"></a>
-            <img src="img/APAC CYBERSECURITY FUND.png" className="max-w-5xl max-h-[90vh] object-contain" />
-          </div>
-        
-          {/* TARGET CSS */}
-          <style>{`
-            #cert1:target,
-            #cert2:target,
-            #cert3:target,
-            #cert4:target {
-              opacity: 1;
-              pointer-events: auto;
-            }
-          `}</style>
-        
+            
         </section>
 
         <section id="stack" className="mb-20 scroll-mt-24">
@@ -641,6 +580,55 @@ export default function Page() {
             className="mx-auto" />
         </footer>
       </div>
+
+        {/* ================= CERTIFICATE VIEWERS ================= */}
+
+<div id="cert1" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
+  <a href="#certifications" className="absolute inset-0"></a>
+  <img
+    src="img/IntroToCybersec- Tech Academy.png"
+    className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+    alt="Certificate 1"
+  />
+</div>
+
+<div id="cert2" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
+  <a href="#certifications" className="absolute inset-0"></a>
+  <img
+    src="img/Wireshark-Tech Academy.png"
+    className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+    alt="Certificate 2"
+  />
+</div>
+
+<div id="cert3" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
+  <a href="#certifications" className="absolute inset-0"></a>
+  <img
+    src="img/RedTeamSideofCyberSec-Tech Academy.png"
+    className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+    alt="Certificate 3"
+  />
+</div>
+
+<div id="cert4" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
+  <a href="#certifications" className="absolute inset-0"></a>
+  <img
+    src="img/APAC CYBERSECURITY FUND.png"
+    className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+    alt="Certificate 4"
+  />
+</div>
+
+{/* CSS TARGET CONTROL */}
+<style>{`
+  #cert1:target,
+  #cert2:target,
+  #cert3:target,
+  #cert4:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+`}</style>
     </>
   );
 }
