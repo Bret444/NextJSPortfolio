@@ -163,7 +163,7 @@ export default function Page() {
 
         <section id="about" className="mb-24 scroll-mt-24">
           <h2 className="section-title text-3xl font-semibold text-white mb-8 flex items-center">
-            <span className="mr-4 text-2xl">🚀</span> About Me
+            <span className="mr-4 text-2xl"></span> About Me
           </h2>
 
           <p className="text-lg leading-relaxed text-gray-300">
@@ -175,7 +175,7 @@ export default function Page() {
         </section>
 
         <section id="education" className="mb-24 scroll-mt-24">
-          <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">🎓 Education</h2>
+          <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block"> Education</h2>
           <div className="space-y-5">
             {/* College */}
             <div className="glass-card p-7 border-l-4 border-gray-500 hover:border-gray-400">
@@ -338,7 +338,7 @@ export default function Page() {
         </section>
 
         <section id="stats" className="mb-20 scroll-mt-24 text-center">
-          <h2 className="text-3xl font-semibold text-white mb-12">📊 GitHub Stats</h2>
+          <h2 className="text-3xl font-semibold text-white mb-12">GitHub Stats</h2>
           <div className="space-y-8">
             {/* GitHub Profile Card */}
             <div className="glass-card p-8">
@@ -383,7 +383,7 @@ export default function Page() {
         </section>
 
         <section id="projects" className="mb-20 scroll-mt-24">
-          <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">📁 Featured Projects</h2>
+          <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block"> Featured Projects</h2>
           <div className="space-y-6">
             {/* CRAD System Project */}
             <div className="glass-card p-6">
@@ -407,8 +407,8 @@ export default function Page() {
                       className="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
                   </div>
                   <div className="text-sm text-gray-500">
-                    <p>🎓 <strong>Bestlink College of the Philippines</strong> • Cluster 7 Project</p>
-                    <p className="mt-1">👨💻 <strong>Role:</strong> Lead Programmer</p>
+                    <p> <strong>Bestlink College of the Philippines</strong> • Cluster 7 Project</p>
+                    <p className="mt-1"> <strong>Role:</strong> Lead Programmer</p>
                   </div>
                 </div>
               </div>
@@ -433,7 +433,7 @@ export default function Page() {
         </section>
 
         <footer id="contact" className="text-center mt-32 pb-20 scroll-mt-24">
-          <h2 className="text-3xl font-bold text-white mb-4">Let's Connect! ⭐</h2>
+          <h2 className="text-3xl font-bold text-white mb-4">Let's Connect! </h2>
           <p className="text-gray-400 mb-8 max-w-md mx-auto">Feel free to reach out if you're looking for a developer, a
             collaborator, or just want to say hi.</p>
           <div className="flex justify-center gap-8 mb-12">
