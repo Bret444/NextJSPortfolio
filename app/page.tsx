@@ -298,9 +298,7 @@ export default function Page() {
             <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
               January 27, 2024
             </span>
-          </div>
-      
-
+              </div>
         {/* CERT 2 */}
               <div
                 id="cert2"
@@ -337,8 +335,7 @@ export default function Page() {
             <span className="text-sm text-cyan-300 bg-cyan-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
               February 10, 2024
             </span>
-          </div>
-      
+            </div>
 
        {/* CERT 3 */}
             <div
@@ -372,14 +369,10 @@ export default function Page() {
                   Cybersecurity webinar discussing red teaming and career development.
                 </p>
               </div>
-          
-
             <span className="text-sm text-red-300 bg-red-900/20 px-4 py-1.5 rounded-full whitespace-nowrap">
               March 25, 2024
             </span>
-          </div>
-       
-
+           </div>
        {/* CERT 4 */}
               <div
                 id="cert4"
@@ -418,7 +411,6 @@ export default function Page() {
             </span>
           </div>
 
-      </div>
 
       {/* ================= FULL PAGE VIEWERS ================= */}
 
