@@ -168,10 +168,7 @@ export default function Page() {
           </h2>
 
           <p className="text-lg leading-relaxed text-gray-300">
-            I'm a dedicated web developer with expertise in building scalable web applications. I love writing
-            clean, efficient code and learning new technologies. Always excited to collaborate on projects and
-            contribute to the open-source community.
-            My journey in IT was driven by curiousity and willingness to learn new technologies. And I'm fascinate to learn Cybersecurity and AI 
+           An aspiring Web Develoeer and Cybersecurity in the field of technology who is passionate about continuous learning and building strong technical fundamentals. A quiet and observant individual who may take time to fully understand new concepts, but is committed to improving through patience, consistency, and hard work. Eager to gain experience in programming, web development, and other areas of Information Technology while continuously developing problem-solving, critical thinking, and teamwork skills.My journey in IT was driven by curiousity and willingness to learn new technologies. And I'm fascinate to learn Cybersecurity and AI 
           </p>
         </section>
 
