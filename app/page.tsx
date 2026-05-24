@@ -389,54 +389,7 @@ export default function Page() {
               </div>
             
         </section>
-             {/* ================= CERTIFICATE VIEWERS ================= */}
-
-                  <div id="cert1" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
-                    <a href="#certifications" className="absolute inset-0"></a>
-                    <img
-                      src="img/IntroToCybersec- Tech Academy.png"
-                      className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
-                      alt="Certificate 1"
-                    />
-                  </div>
-                  
-                  <div id="cert2" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
-                    <a href="#certifications" className="absolute inset-0"></a>
-                    <img
-                      src="img/Wireshark-Tech Academy.png"
-                      className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
-                      alt="Certificate 2"
-                    />
-                  </div>
-                  
-                  <div id="cert3" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
-                    <a href="#certifications" className="absolute inset-0"></a>
-                    <img
-                      src="img/RedTeamSideofCyberSec-Tech Academy.png"
-                      className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
-                      alt="Certificate 3"
-                    />
-                  </div>
-                  
-                  <div id="cert4" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
-                    <a href="#certifications" className="absolute inset-0"></a>
-                    <img
-                      src="img/APAC CYBERSECURITY FUND.png"
-                      className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
-                      alt="Certificate 4"
-                    />
-                  </div>
-                  
-                  {/* CSS TARGET CONTROL */}
-                  <style>{`
-                    #cert1:target,
-                    #cert2:target,
-                    #cert3:target,
-                    #cert4:target {
-                      opacity: 1;
-                      pointer-events: auto;
-                    }
-                  `}</style>
+            
         <section id="stack" className="mb-20 scroll-mt-24">
           <h2 className="section-title text-2xl font-semibold text-gray-300 mb-12 inline-block">Tech Stack</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -626,7 +579,56 @@ export default function Page() {
           <img src="https://visitor-badge.laobi.icu/badge?page_id=YOUR_USERNAME.YOUR_USERNAME" alt="Visitors"
             className="mx-auto" />
         </footer>
-      </div>
-    </>
+
+           {/* ================= CERTIFICATE VIEWERS ================= */}
+
+                  <div id="cert1" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
+                    <a href="#certifications" className="absolute inset-0"></a>
+                    <img
+                      src="img/IntroToCybersec- Tech Academy.png"
+                      className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+                      alt="Certificate 1"
+                    />
+                  </div>
+                  
+                  <div id="cert2" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
+                    <a href="#certifications" className="absolute inset-0"></a>
+                    <img
+                      src="img/Wireshark-Tech Academy.png"
+                      className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+                      alt="Certificate 2"
+                    />
+                  </div>
+                  
+                  <div id="cert3" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
+                    <a href="#certifications" className="absolute inset-0"></a>
+                    <img
+                      src="img/RedTeamSideofCyberSec-Tech Academy.png"
+                      className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+                      alt="Certificate 3"
+                    />
+                  </div>
+                  
+                  <div id="cert4" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none z-[9999]">
+                    <a href="#certifications" className="absolute inset-0"></a>
+                    <img
+                      src="img/APAC CYBERSECURITY FUND.png"
+                      className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg"
+                      alt="Certificate 4"
+                    />
+                  </div>
+                  
+                  {/* CSS TARGET CONTROL */}
+                  <style>{`
+                    #cert1:target,
+                    #cert2:target,
+                    #cert3:target,
+                    #cert4:target {
+                      opacity: 1;
+                      pointer-events: auto;
+                    }
+                  `}</style>
+               </div>
+        </>
   );
 }
