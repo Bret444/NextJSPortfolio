@@ -575,6 +575,8 @@ export default function Page() {
           </div>
           <img src="https://visitor-badge.laobi.icu/badge?page_id=YOUR_USERNAME.YOUR_USERNAME" alt="Visitors"
             className="mx-auto" />
-        </footer>       
+        </footer> 
+      </div>
+    </>
   );
 }
