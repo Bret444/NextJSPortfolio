@@ -14,6 +14,7 @@ export default function Page() {
             <a href="#stack" className="nav-link px-4 py-2">Tech Stack</a>
             <a href="#stats" className="nav-link px-4 py-2">Stats</a>
             <a href="#projects" className="nav-link px-4 py-2">Projects</a>
+             <a href="#certifications" className="nav-link px-4 py-2">Certifications</a>
             <a href="#contact"
               className="btn-primary px-6 py-2.5 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition shadow-lg shadow-black/40 ml-4 font-medium">Hire
               Me</a>
