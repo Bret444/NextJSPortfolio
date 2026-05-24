@@ -254,8 +254,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-        </section>
-             <section id="certifications" className="mb-24 scroll-mt-24">
+        <section id="certifications" className="mb-24 scroll-mt-24">
 
       <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">
         Certifications
@@ -264,30 +263,30 @@ export default function Page() {
       <div className="space-y-5">
 
         {/* ================= CERT 1 ================= */}
-        <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300 relative">
-
-          <input type="checkbox" id="cert1" className="peer hidden" />
+        <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300">
 
           <div className="flex items-start gap-4 justify-between mb-3">
 
             <div className="flex items-center gap-4 flex-1">
 
-              <label htmlFor="cert1" className="cursor-pointer">
+              <a href="#cert1">
                 <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
                   <img
                     src="img/IntroToCybersec- Tech Academy.png"
                     alt="Certificate 1"
-                   className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
+                    className="w-full h-full object-cover hover:scale-105 transition"
                   />
                 </div>
-              </label>
+              </a>
 
               <div>
                 <h3 className="text-lg font-bold text-white">
                   How to get started in Cybersecurity (For beginners and 0-knowledge)
                 </h3>
 
-                <p className="text-gray-300 text-sm font-medium">Tech Academy</p>
+                <p className="text-gray-300 text-sm font-medium">
+                  Tech Academy
+                </p>
 
                 <p className="text-gray-400 text-sm mt-1">
                   Introduction to Cybersecurity
@@ -299,56 +298,33 @@ export default function Page() {
               January 27, 2024
             </span>
           </div>
-
-          {/* Modal */}
-         <div className="
-           fixed inset-0 bg-black/80
-           flex items-center justify-center
-            opacity-0 pointer-events-none
-            peer-checked:opacity-100
-            peer-checked:pointer-events-auto
-            transition
-            z-[9999]
-            p-6
-           overflow-y-auto
-          ">
-
-            <label htmlFor="cert1" className="absolute inset-0"></label>
-
-            <img
-              src="img/IntroToCybersec- Tech Academy.png"
-              alt="Certificate 1 Large"
-              className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
-            />
-          </div>
-
         </div>
 
         {/* ================= CERT 2 ================= */}
-        <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300 relative">
-
-          <input type="checkbox" id="cert2" className="peer hidden" />
+        <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300">
 
           <div className="flex items-start gap-4 justify-between mb-3">
 
             <div className="flex items-center gap-4 flex-1">
 
-              <label htmlFor="cert2" className="cursor-pointer">
+              <a href="#cert2">
                 <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
                   <img
                     src="img/Wireshark-Tech Academy.png"
                     alt="Certificate 2"
-                    className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
+                    className="w-full h-full object-cover hover:scale-105 transition"
                   />
                 </div>
-              </label>
+              </a>
 
               <div>
                 <h3 className="text-lg font-bold text-white">
                   Wireshark 101: For Beginners and 0-Knowledge
                 </h3>
 
-                <p className="text-gray-300 text-sm font-medium">Tech Academy</p>
+                <p className="text-gray-300 text-sm font-medium">
+                  Tech Academy
+                </p>
 
                 <p className="text-gray-400 text-sm mt-1">
                   Webinar participation certificate focused on Wireshark basics and network packet analysis.
@@ -360,54 +336,33 @@ export default function Page() {
               February 10, 2024
             </span>
           </div>
-
-         <div className="
-            fixed inset-0 bg-black/80
-            flex items-center justify-center
-            opacity-0 pointer-events-none
-            peer-checked:opacity-100
-            peer-checked:pointer-events-auto
-            transition
-            z-[9999]
-            p-6
-            overflow-y-auto
-          ">
-            <label htmlFor="cert2" className="absolute inset-0"></label>
-
-            <img
-              src="img/Wireshark-Tech Academy.png"
-              alt="Certificate 2 Large"
-              className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
-            />
-          </div>
-
         </div>
 
         {/* ================= CERT 3 ================= */}
-        <div className="glass-card p-7 border-l-4 border-red-500 hover:border-red-400 transition duration-300 relative">
-
-          <input type="checkbox" id="cert3" className="peer hidden" />
+        <div className="glass-card p-7 border-l-4 border-red-500 hover:border-red-400 transition duration-300">
 
           <div className="flex items-start gap-4 justify-between mb-3">
 
             <div className="flex items-center gap-4 flex-1">
 
-              <label htmlFor="cert3" className="cursor-pointer">
+              <a href="#cert3">
                 <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
                   <img
                     src="img/RedTeamSideofCyberSec-Tech Academy.png"
                     alt="Certificate 3"
-                    className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
+                    className="w-full h-full object-cover hover:scale-105 transition"
                   />
                 </div>
-              </label>
+              </a>
 
               <div>
                 <h3 className="text-lg font-bold text-white">
                   The Red Team Side of Cybersecurity
                 </h3>
 
-                <p className="text-gray-300 text-sm font-medium">Tech Academy</p>
+                <p className="text-gray-300 text-sm font-medium">
+                  Tech Academy
+                </p>
 
                 <p className="text-gray-400 text-sm mt-1">
                   Cybersecurity webinar discussing red teaming and career development.
@@ -419,47 +374,24 @@ export default function Page() {
               March 25, 2024
             </span>
           </div>
-
-           <div className="
-                fixed inset-0 bg-black/80
-                flex items-center justify-center
-                opacity-0 pointer-events-none
-                peer-checked:opacity-100
-                peer-checked:pointer-events-auto
-                transition
-                z-[9999]
-                p-6
-                overflow-y-auto
-              ">
-            <label htmlFor="cert3" className="absolute inset-0"></label>
-
-            <img
-              src="img/RedTeamSideofCyberSec-Tech Academy.png"
-              alt="Certificate 3 Large"
-              className="max-w-4xl max-h-[80vh] rounded-lg shadow-lg z-10"
-            />
-          </div>
-
         </div>
 
         {/* ================= CERT 4 ================= */}
-        <div className="glass-card p-7 border-l-4 border-purple-500 hover:border-purple-400 transition duration-300 relative">
-
-          <input type="checkbox" id="cert4" className="peer hidden" />
+        <div className="glass-card p-7 border-l-4 border-purple-500 hover:border-purple-400 transition duration-300">
 
           <div className="flex items-start gap-4 justify-between mb-3">
 
             <div className="flex items-center gap-4 flex-1">
 
-              <label htmlFor="cert4" className="cursor-pointer">
+              <a href="#cert4">
                 <div className="w-28 h-20 rounded-lg overflow-hidden bg-gray-800">
                   <img
                     src="img/APAC CYBERSECURITY FUND.png"
                     alt="Certificate 4"
-                    className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
+                    className="w-full h-full object-cover hover:scale-105 transition"
                   />
                 </div>
-              </label>
+              </a>
 
               <div>
                 <h3 className="text-lg font-bold text-white">
@@ -480,33 +412,72 @@ export default function Page() {
               September 13, 2025
             </span>
           </div>
-
-         <div className="
-              fixed inset-0 bg-black/80
-              flex items-center justify-center
-              opacity-0 pointer-events-none
-              peer-checked:opacity-100
-              peer-checked:pointer-events-auto
-              transition
-              z-[9999]
-              p-6
-              overflow-y-auto
-            ">
-            <label htmlFor="cert4" className="absolute inset-0"></label>
-
-            <img
-              src="img/APAC CYBERSECURITY FUND.png"
-              alt="Certificate 4 Large"
-             className="w-auto max-w-full max-h-[90vh] object-contain rounded-lg shadow-lg"
-            />
-          </div>
-
         </div>
 
       </div>
-    </section>
 
-        
+      {/* ================= FULL PAGE VIEWERS ================= */}
+
+      {/* CERT 1 */}
+      <div
+        id="cert1"
+        className="
+          fixed inset-0 bg-black/90
+          flex items-center justify-center
+          opacity-0 pointer-events-none
+        "
+      >
+        <a href="#certifications" className="absolute inset-0"></a>
+
+        <img
+          src="img/IntroToCybersec- Tech Academy.png"
+          className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg z-10"
+        />
+      </div>
+
+      {/* CERT 2 */}
+      <div id="cert2" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none">
+        <a href="#certifications" className="absolute inset-0"></a>
+
+        <img
+          src="img/Wireshark-Tech Academy.png"
+          className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg z-10"
+        />
+      </div>
+
+      {/* CERT 3 */}
+      <div id="cert3" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none">
+        <a href="#certifications" className="absolute inset-0"></a>
+
+        <img
+          src="img/RedTeamSideofCyberSec-Tech Academy.png"
+          className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg z-10"
+        />
+      </div>
+
+      {/* CERT 4 */}
+      <div id="cert4" className="fixed inset-0 bg-black/90 flex items-center justify-center opacity-0 pointer-events-none">
+        <a href="#certifications" className="absolute inset-0"></a>
+
+        <img
+          src="img/APAC CYBERSECURITY FUND.png"
+          className="max-w-5xl max-h-[90vh] object-contain rounded-lg shadow-lg z-10"
+        />
+      </div>
+
+      {/* CSS for :target behavior */}
+      <style>{`
+        #cert1:target,
+        #cert2:target,
+        #cert3:target,
+        #cert4:target {
+          opacity: 1;
+          pointer-events: auto;
+          z-index: 9999;
+        }
+      `}</style>
+
+    </section>
 
         <section id="stack" className="mb-20 scroll-mt-24">
           <h2 className="section-title text-2xl font-semibold text-gray-300 mb-12 inline-block">Tech Stack</h2>
