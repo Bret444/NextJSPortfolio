@@ -260,7 +260,7 @@ export default function Page() {
          <h2 className="section-title text-3xl font-semibold text-white mb-12 inline-block">
          Certifications
         </h2>
-  <div className="space-y-5">
+       <div className="space-y-5">
 
     {/* Certificate 1 */}
     <div className="glass-card p-7 border-l-4 border-cyan-500 hover:border-cyan-400 transition duration-300">
@@ -280,15 +280,14 @@ export default function Page() {
           <div>
             <h3 className="text-lg font-bold text-white">
              How to get started in Cybersecurity
-              (For beginners and 0-knowledge)
-            </p>
+              (For beginners and 0-knowledge)   
             </h3>
             <p className="text-gray-300 font-medium text-sm">
               Tech Academy
             </p>
-
             <p className="text-gray-400 text-sm mt-1">
-             
+                Introduction to Cybersecurity
+             </p> 
           </div>
         </div>
 
