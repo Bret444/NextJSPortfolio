@@ -544,8 +544,6 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
               </div>
             </div>
 
-
-            <div className="space-y-6">
             {/* Brgy Waste Management System */}
             <div className="glass-card p-6">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
@@ -569,7 +567,7 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
                   </div>
                 </div>
               </div>
-            </div>
+          
 
             {/* Additional Project Placeholder */}
             <div className="glass-card p-6">
