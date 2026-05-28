@@ -528,16 +528,14 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
                     Bestlink College of the Philippines. Automates research lifecycle with intelligent
                     conflict-detection algorithm for defense schedules.</p>
                   <div className="flex flex-wrap gap-2 mb-4">
-                    <span className="px-3 py-1 bg-blue-900/30 text-blue-300 text-xs rounded-full">Laravel
-                      10</span>
-                    <span className="px-3 py-1 bg-purple-900/30 text-purple-300 text-xs rounded-full">MySQL
-                      8.0</span>
+                    <span className="px-3 py-1 bg-blue-900/30 text-blue-300 text-xs rounded-full">Laravel</span>
+                    <span className="px-3 py-1 bg-purple-900/30 text-purple-300 text-xs rounded-full">MySQL</span>
+                    <span className="px-3 py-1 bg-blue-900/30 text-blue-300 text-xs rounded-full">Bootstrap</span>
                     <span className="px-3 py-1 bg-green-900/30 text-green-300 text-xs rounded-full">PHP</span>
-                    <span
-                      className="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
+                    <span className="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
                   </div>
                   <div className="text-sm text-gray-500">
-                    <p> <strong>Bestlink College of the Philippines:</strong> Capstone Project</p>
+                    <p> <strong>Bestlink College of the Philippines: Capstone Project</strong> </p>
                     <p className="mt-1"> <strong>Role:</strong> Programmer</p>
                   </div>
                 </div>
@@ -563,7 +561,7 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
                       className="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
                   </div>
                   <div className="text-sm text-gray-500">
-                    <p> <strong>Bestlink College of the Philippines: </strong>Project Management</p>
+                    <p> <strong>Bestlink College of the Philippines:  Project Management</strong></p>
                     <p className="mt-1"> <strong>Role:</strong> Front-End</p>
                   </div>
                 </div>
