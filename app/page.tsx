@@ -585,6 +585,7 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
               </div>
             </div>
           </div>
+          </div>
         </section>
 
         <footer id="contact" className="text-center mt-32 pb-20 scroll-mt-24">
