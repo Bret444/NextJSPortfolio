@@ -537,7 +537,7 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
                       className="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
                   </div>
                   <div className="text-sm text-gray-500">
-                    <p> <strong>Bestlink College of the Philippines: Capstone Project</strong></p>
+                    <p> <strong>Bestlink College of the Philippines:</strong> Capstone Project</p>
                     <p className="mt-1"> <strong>Role:</strong> Programmer</p>
                   </div>
                 </div>
@@ -545,8 +545,7 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
             </div>
 
              <div className="space-y-6">
-            {/* Brgy Waste Management System */}
-           
+            {/* Brgy Waste Management System */}      
             <div className="glass-card p-6">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
                 <div className="flex-1">
@@ -564,12 +563,13 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
                       className="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
                   </div>
                   <div className="text-sm text-gray-500">
-                    <p> <strong>Bestlink College of the Philippines: Project Management</strong></p>
-                    <p className="mt-1"> <strong>Role:</strong>Front-End</p>
+                    <p> <strong>Bestlink College of the Philippines: </strong>Project Management</p>
+                    <p className="mt-1"> <strong>Role:</strong> Front-End</p>
                   </div>
                 </div>
               </div>
-          
+
+              
 
             {/* Additional Project Placeholder */}
             <div className="glass-card p-6">
