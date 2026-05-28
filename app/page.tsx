@@ -46,122 +46,12 @@ export default function Page() {
                 className="rounded-full avatar-float" />
 
               <code
-                className="text-sm md:text-base text-blue-300 text-center">Welcome! I'm passionate about building web applications</code>
+                className="text-sm md:text-base text-blue-300 text-center">Welcome! I'm passionate about building web applications and cybersecurity</code>
             </div>
           </header>
         </section>
 
-        {/* Building Web Solutions Motion Graphics Section */}
-        <section className="mb-24">
-          <div className="glass-card p-12 overflow-hidden rounded-2xl">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              {/* Left: Motion Graphics SVG */}
-              <div className="flex justify-center">
-                <svg viewBox="0 0 400 400" className="w-full max-w-sm h-auto" xmlns="http://www.w3.org/2000/svg">
-                  {/* Background */}
-                  <rect width="400" height="400" fill="transparent" />
-
-                  {/* Central animated element */}
-                  <circle cx="200" cy="200" r="100" fill="none" stroke="#606060" strokeWidth="2"
-                    opacity="0.3" />
-                  <circle cx="200" cy="200" r="80" fill="none" stroke="#707070" strokeWidth="1.5"
-                    opacity="0.5" />
-
-                  {/* Animated orbiting brackets */}
-                  <g className="avatar-ring" style={{ transformOrigin: '200px 200px' }}>
-                    <text x="300" y="205" fontFamily="monospace" fontSize="32" fill="#808080"
-                      textAnchor="middle" fontWeight="bold">&lt;</text>
-                    <text x="100" y="205" fontFamily="monospace" fontSize="32" fill="#808080"
-                      textAnchor="middle" fontWeight="bold">&gt;</text>
-                  </g>
-
-                  {/* Center core */}
-                  <circle cx="200" cy="200" r="15" fill="#707070" className="avatar-glow" />
-                  <circle cx="200" cy="200" r="8" fill="#808080" />
-
-                  {/* Floating API box */}
-                  <g className="avatar-container">
-                    <rect x="40" y="50" width="120" height="80" rx="6" fill="#2a2a3e" stroke="#606060"
-                      strokeWidth="1.5" />
-                    <text x="100" y="75" fontFamily="Arial" fontSize="14" fill="#b0b0b0"
-                      textAnchor="middle" fontWeight="bold">API</text>
-                    <line x1="50" y1="85" x2="150" y2="85" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="50" y1="95" x2="140" y2="95" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="50" y1="105" x2="135" y2="105" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="50" y1="115" x2="120" y2="115" stroke="#707070" strokeWidth="0.5" />
-                  </g>
-
-                  {/* Floating Database box */}
-                  <g className="avatar-container" style={{ animationDelay: '1s' }}>
-                    <rect x="240" y="280" width="120" height="80" rx="6" fill="#2a2a3e" stroke="#606060"
-                      strokeWidth="1.5" />
-                    <text x="300" y="305" fontFamily="Arial" fontSize="14" fill="#b0b0b0"
-                      textAnchor="middle" fontWeight="bold">DB</text>
-                    <line x1="250" y1="315" x2="350" y2="315" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="250" y1="325" x2="340" y2="325" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="250" y1="335" x2="345" y2="335" stroke="#707070" strokeWidth="0.5" />
-                  </g>
-
-                  {/* Floating Frontend box */}
-                  <g className="avatar-container" style={{ animationDelay: '0.5s' }}>
-                    <rect x="240" y="50" width="110" height="80" rx="6" fill="#2a2a3e" stroke="#606060"
-                      strokeWidth="1.5" />
-                    <text x="295" y="75" fontFamily="Arial" fontSize="13" fill="#b0b0b0"
-                      textAnchor="middle" fontWeight="bold">Frontend</text>
-                    <line x1="250" y1="85" x2="345" y2="85" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="250" y1="95" x2="335" y2="95" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="250" y1="105" x2="340" y2="105" stroke="#707070" strokeWidth="0.5" />
-                  </g>
-
-                  {/* Floating Backend box */}
-                  <g className="avatar-container" style={{ animationDelay: '0.75s' }}>
-                    <rect x="50" y="280" width="110" height="80" rx="6" fill="#2a2a3e" stroke="#606060"
-                      strokeWidth="1.5" />
-                    <text x="105" y="305" fontFamily="Arial" fontSize="13" fill="#b0b0b0"
-                      textAnchor="middle" fontWeight="bold">Backend</text>
-                    <line x1="60" y1="315" x2="155" y2="315" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="60" y1="325" x2="145" y2="325" stroke="#707070" strokeWidth="0.5" />
-                    <line x1="60" y1="335" x2="150" y2="335" stroke="#707070" strokeWidth="0.5" />
-                  </g>
-
-                  {/* Connection lines */}
-                  <line x1="160" y1="85" x2="200" y2="150" stroke="#707070" strokeWidth="1" opacity="0.4"
-                    strokeDasharray="5,5" />
-                  <line x1="240" y1="85" x2="200" y2="150" stroke="#707070" strokeWidth="1" opacity="0.4"
-                    strokeDasharray="5,5" />
-                  <line x1="160" y1="310" x2="200" y2="250" stroke="#707070" strokeWidth="1" opacity="0.4"
-                    strokeDasharray="5,5" />
-                  <line x1="240" y1="310" x2="200" y2="250" stroke="#707070" strokeWidth="1" opacity="0.4"
-                    strokeDasharray="5,5" />
-                </svg>
-              </div>
-
-              {/* Right: Text Content */}
-              <div>
-                <h3 className="text-3xl font-bold text-white mb-5">Building Web Solutions</h3>
-                <p className="text-gray-300 mb-6 leading-relaxed text-lg">I create complete web applications using
-                  modern technologies. From backend systems with Laravel and PHP to frontend interfaces with
-                  HTML, CSS, and JavaScript, I develop solutions that work seamlessly across all platforms.
-                </p>
-                <ul className="space-y-3 text-gray-300">
-                  <li className="flex items-center gap-3">
-                    <span className="w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
-                    <span className="font-medium">RESTful API Design & Development</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <span className="w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
-                    <span className="font-medium">Database Architecture & Optimization</span>
-                  </li>
-                  <li className="flex items-center gap-3">
-                    <span className="w-2.5 h-2.5 bg-gray-400 rounded-full"></span>
-                    <span className="font-medium">Responsive Web Design</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-
+       
         <section id="about" className="mb-24 scroll-mt-24">
           <h2 className="section-title text-3xl font-semibold text-white mb-8 flex items-center">
             <span className="mr-4 text-2xl"></span> About Me
