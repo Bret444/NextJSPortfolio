@@ -537,8 +537,35 @@ My journey in IT was driven by curiousity and willingness to learn new technolog
                       className="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
                   </div>
                   <div className="text-sm text-gray-500">
-                    <p> <strong>Bestlink College of the Philippines</strong></p>
-                    <p className="mt-1"> <strong>Role:</strong> Lead Programmer</p>
+                    <p> <strong>Bestlink College of the Philippines: Capstone Project</strong></p>
+                    <p className="mt-1"> <strong>Role:</strong> Programmer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div className="space-y-6">
+            {/* Brgy Waste Management System */}
+            <div className="glass-card p-6">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+                <div className="flex-1">
+                  <h3 className="text-xl font-bold text-blue-400 mb-2">
+                    <a href="https://github.com/yourusername/Brgy_Waste_Management" target="_blank"
+                      className="hover:text-blue-300 transition">Brgy Waste Management System</a>
+                  </h3>
+                  <p className="text-gray-300 mb-4">The Barangay Waste Management System is a project that is intended to improve the collection, segregation, and disposal of waste in the barangay. This project will be an ideal one since the population in our country is increasing, so the waste too. Since we are in the era where technology has rapidly advanced, and this project involves technology, it will help for the enhancement of waste management for every barangay. The aim of this project is to reduce the harm that garbage causes to the environment, promote recycling, and help residents to live a clean and healthy lifestyle.</p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    <span className="px-3 py-1 bg-blue-900/30 text-blue-300 text-xs rounded-full">Bootstrap</span>
+                    <span className="px-3 py-1 bg-purple-900/30 text-purple-300 text-xs rounded-full">MySQL
+                      8.0</span>
+                    <span className="px-3 py-1 bg-green-900/30 text-green-300 text-xs rounded-full">PHP</span>
+                    <span
+                      className="px-3 py-1 bg-orange-900/30 text-orange-300 text-xs rounded-full">JavaScript</span>
+                  </div>
+                  <div className="text-sm text-gray-500">
+                    <p> <strong>Bestlink College of the Philippines: Project Management</strong></p>
+                    <p className="mt-1"> <strong>Role:</strong>Front-End</p>
                   </div>
                 </div>
               </div>
