@@ -46,7 +46,7 @@ export default function Page() {
                 className="rounded-full avatar-float" />
 
               <code
-                className="text-sm md:text-base text-blue-300 text-center">Welcome! I'm passionate about building web applications and cybersecurity</code>
+                className="text-sm md:text-base text-blue-300 text-center">Welcome!</code>
             </div>
           </header>
         </section>
